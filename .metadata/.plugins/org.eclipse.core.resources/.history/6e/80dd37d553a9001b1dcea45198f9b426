@@ -1,0 +1,17 @@
+'''
+Created on 2021. 4. 30.
+
+@author: PC-19
+'''
+
+class MyClass(object):
+    '''
+    classdocs
+    '''
+
+
+    def __init__(self, params):
+        '''
+        Constructor
+        '''
+        

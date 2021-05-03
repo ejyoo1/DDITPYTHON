@@ -1,0 +1,22 @@
+import random
+a = random.randrange(1,3)
+print(a);
+
+test = "홀", "짝"
+random.choice(test)
+print(random.choice(test))
+
+mine = input("홀/짝을 선택하세요")
+print(mine)
+
+if mine == random.choice(test):
+    print("정답입니다.")
+else 
+    print("틀렸습니다.")
+
+#mine = input("홀/짝을 선택하세요")
+#print(mine)
+# 0.5 보다 작으면 홀
+# 같은건 ==
+
+

@@ -1,0 +1,7 @@
+import random
+
+mine = input("홀/짝을 선택하세요")
+com = ""
+result = ""
+
+rand = random.random()

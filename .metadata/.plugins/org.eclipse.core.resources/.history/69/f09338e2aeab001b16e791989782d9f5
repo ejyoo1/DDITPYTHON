@@ -1,0 +1,4 @@
+dansu = range(9);
+
+for i in dansu
+    print(i*dansu)

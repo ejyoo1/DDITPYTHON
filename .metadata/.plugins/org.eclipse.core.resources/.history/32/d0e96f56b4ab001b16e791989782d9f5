@@ -1,0 +1,15 @@
+import random
+a = random.randrange(1,3)
+print(a);
+
+test = "홀", "짝"
+com = random.choice(test)
+print(com)
+
+mine = input("홀/짝을 선택하세요")
+print(mine)
+
+if mine == com:
+    print("정답입니다.")
+else:
+    print("틀렸습니다.")

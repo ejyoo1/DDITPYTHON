@@ -1,0 +1,12 @@
+import random
+
+mine = input("홀/짝을 선택하세요")
+com = ""
+result = ""
+
+rand = random.random()
+
+if ramd < 0.5:
+    com = "홀"
+else:
+    com = "짝"
