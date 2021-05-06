@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Pane prefHeight="215.0" prefWidth="200.0">
+         <children>
+            <TextField id="tf" layoutX="13.0" layoutY="22.0" prefHeight="23.0" prefWidth="172.0" />
+            <Button id="btn3" layoutX="136.0" layoutY="57.0" mnemonicParsing="false" prefHeight="23.0" prefWidth="49.0" text="3" />
+            <Button id="btn2" layoutX="75.0" layoutY="57.0" mnemonicParsing="false" prefHeight="23.0" prefWidth="49.0" text="2" />
+            <Button id="btn1" layoutX="14.0" layoutY="57.0" mnemonicParsing="false" prefHeight="23.0" prefWidth="49.0" text="1" />
+            <Button id="btn4" layoutX="14.0" layoutY="92.0" mnemonicParsing="false" prefHeight="23.0" prefWidth="49.0" text="4" />
+            <Button id="btn5" layoutX="75.0" layoutY="92.0" mnemonicParsing="false" prefHeight="23.0" prefWidth="49.0" text="5" />
+            <Button id="btn6" layoutX="136.0" layoutY="92.0" mnemonicParsing="false" prefHeight="23.0" prefWidth="49.0" text="6" />
+            <Button id="btn7" layoutX="14.0" layoutY="128.0" mnemonicParsing="false" prefHeight="23.0" prefWidth="49.0" text="7" />
+            <Button id="btn8" layoutX="75.0" layoutY="128.0" mnemonicParsing="false" prefHeight="23.0" prefWidth="49.0" text="8" />
+            <Button id="btn9" layoutX="136.0" layoutY="128.0" mnemonicParsing="false" prefHeight="23.0" prefWidth="49.0" text="9" />
+            <Button id="btn0" layoutX="15.0" layoutY="169.0" mnemonicParsing="false" prefHeight="23.0" prefWidth="49.0" text="0" />
+            <Button id="btnCall" layoutX="76.0" layoutY="169.0" mnemonicParsing="false" prefHeight="23.0" prefWidth="110.0" text="Call" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

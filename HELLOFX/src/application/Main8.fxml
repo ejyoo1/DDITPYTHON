@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Pane prefHeight="383.0" prefWidth="200.0">
+         <children>
+            <Button id="btn" layoutX="14.0" layoutY="48.0" mnemonicParsing="false" prefHeight="23.0" prefWidth="169.0" text="click" />
+            <Label id="lbl" layoutX="14.0" layoutY="26.0" text="단" />
+            <TextField id="tfDan" layoutX="48.0" layoutY="22.0" />
+            <TextArea id="ta" layoutX="14.0" layoutY="77.0" prefHeight="292.0" prefWidth="169.0" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

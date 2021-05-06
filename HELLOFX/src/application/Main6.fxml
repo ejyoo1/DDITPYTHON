@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Pane prefHeight="92.0" prefWidth="406.0">
+         <children>
+            <TextField id="tf1" layoutX="14.0" layoutY="14.0" prefHeight="23.0" prefWidth="54.0" />
+            <Label layoutX="77.0" layoutY="18.0" text="에서" />
+            <TextField id="tf2" layoutX="111.0" layoutY="14.0" prefHeight="23.0" prefWidth="54.0" />
+            <Button id="btn" layoutX="176.0" layoutY="14.0" mnemonicParsing="false" text="까지 짝수합은" />
+            <TextField id="tf3" layoutX="280.0" layoutY="14.0" prefHeight="23.0" prefWidth="54.0" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
