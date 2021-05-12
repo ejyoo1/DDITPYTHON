@@ -1,5 +1,6 @@
 import pymysql
- 
+
+# DB 데이터 삭제
 conn = pymysql.connect(host='localhost', user='root', password='java',
                        db='python', charset='utf8')
  

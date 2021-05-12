@@ -1,5 +1,6 @@
 import pymysql
- 
+
+# DB Select
 conn = pymysql.connect(host='localhost', user='root', password='java',
                        db='python', charset='utf8')
  

@@ -2,6 +2,7 @@ import urllib.request
 from bs4 import BeautifulSoup
 import pymysql
 
+# 네이버 API 를 사용하여 검색 크롤링 후 DB 저장
 def insertChicken(tups):
     conn = pymysql.connect(host='localhost', user='root', password='java',
                            db='python', charset='utf8')

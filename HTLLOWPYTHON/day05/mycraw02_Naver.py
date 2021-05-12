@@ -4,6 +4,7 @@ import urllib.request
 
 from bs4 import BeautifulSoup
 
+# 네이버 API 를 사용하여 검색 크롤링
 client_id = "eWj8drgkHgjyO6APRHlC"
 client_secret = "t5l653Q7V2"
 encText = urllib.parse.quote("치킨")

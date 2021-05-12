@@ -2,6 +2,7 @@ import urllib.request
 from bs4 import BeautifulSoup
 import pymysql
 
+# 주식 사이트 : 매일경제 데이터 크롤링 후 업로드
 def insertStock(tups):
     conn = pymysql.connect(host='localhost', user='root', password='java',
                            db='python', charset='utf8')

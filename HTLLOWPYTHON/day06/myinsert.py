@@ -1,5 +1,6 @@
 import pymysql
  
+# DB 여러개 Insert
 conn = pymysql.connect(host='localhost', user='root', password='java',
                        db='python', charset='utf8')
  

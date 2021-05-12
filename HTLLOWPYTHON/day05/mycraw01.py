@@ -1,6 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 
+# 데이터 크롤링
 url = 'http://localhost:8080/CRAWAL/crawhtm.html'
 
 response = requests.get(url)

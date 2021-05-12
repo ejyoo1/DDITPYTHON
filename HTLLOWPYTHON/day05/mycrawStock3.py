@@ -2,6 +2,7 @@ import urllib.request
 from bs4 import BeautifulSoup
 import pymysql
 
+# 블러그 용으로 mycrawStock2 수정
 def insertTest(tups):
     conn = pymysql.connect(host='localhost', user='root', password='java',
                            db='python', charset='utf8')
