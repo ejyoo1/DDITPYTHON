@@ -1,0 +1,20 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>Flask app</title>
+  </head>
+  <body>
+    <h1>{{title}}</h1>
+    <h1>{{mylist}}</h1>
+    {% for item in mylist %}
+		{{item}}
+	{% endfor %}
+	<h1>{{objlist}}</h1>
+	{% for item in objlist %}
+		{{item.e_id}}
+		{{item.e_name}}
+		{{item.e_birth}}<br>
+	{% endfor %}
+	
+  </body>
+</html>
