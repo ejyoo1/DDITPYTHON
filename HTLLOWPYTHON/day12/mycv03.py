@@ -1,5 +1,6 @@
 import cv2
 
+# 이미지 저장
 original = cv2.imread('ejyoo.png', cv2.IMREAD_COLOR)
 gray = cv2.imread('ejyoo.png',cv2.IMREAD_GRAYSCALE)
  
